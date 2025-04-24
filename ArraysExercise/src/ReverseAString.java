@@ -24,14 +24,14 @@ public class ReverseAString {
 		
 		/*Reverse an array with same char*/
 		char a=' ';
-		for(int i=0,j=len-1;i<len/2 && j>len/2;i++,j--) {
-		
-		
+	
+		for(int i=0,j=len-1;i<len/2 && j>=len/2;i++,j--) {
+			
 			a=s[i];
 			s[i]=s[j];
 			s[j]=a;
-
 		}
+		
 		System.out.println(Arrays.toString(s));
 		
 	}
