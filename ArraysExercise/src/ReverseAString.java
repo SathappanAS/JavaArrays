@@ -30,7 +30,9 @@ public class ReverseAString {
 			a=s[i];
 			s[i]=s[j];
 			s[j]=a;
+		
 		}
+		
 		
 		System.out.println(Arrays.toString(s));
 		
